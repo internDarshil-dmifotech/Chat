@@ -12,7 +12,7 @@ router.post('/generate', async (req, res) => {
     res.status(500).json({
       error: 'Failed to generate content',
       response:
-        "Let's stay focused! Can you share more about your specific CBT challenge or concern? I'm here to assist with Cognitive Behavioral Therapy-related questions or help you address any emotional or mental health issues you're facing.",
+        "Let’s keep things on track! I’m here to help you with anything related to the IJEBR website. Feel free to ask about submissions, archives, the editorial board, or journal topics. For anything else, I had recommend visiting the right platform.",
     });
   }
 });
